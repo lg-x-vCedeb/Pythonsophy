@@ -74,17 +74,16 @@ name = input("What is your name?")
 print(name,"is a good name")
 print("\n")
 
-#...
 print("Task8 Coding")
 while True:
     ccc = 0
     ccc = input("Please input a positive integer: ")
     if int(ccc) <= 0:
+        print("POSITIVE INTEGER")
         continue
     else:
-        for i in range(int(ccc)):
-            if((int(ccc) / i) == (int(ccc) // i)):
+        for i in range(1,int(ccc)):
+            if((int(ccc) % i) == 0):
                 print(i)
         break
 print("\n")
-#...
