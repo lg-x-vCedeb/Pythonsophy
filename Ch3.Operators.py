@@ -1,0 +1,15 @@
+print("Task1 coding")
+#x**y: Exponent - left operand raised to the power of right
+print(2**22)
+print(2*22)
+print(3*7)
+print(2**22/(3*7))
+print(2**22//(3*7))
+print()
+
+i, j = input("Please input two positive integers:"),input()
+i = int(i)
+j = int(j)
+print("The sum of %d and %d is: %d" % (i, j, i + j)) if (i > 0 and j > 0) else print("Invalid input!")
+print("%s" % ((float(i) > 0 and  float(j) > 0) and "The sum of " + str(i) +" and " + str(j) + " is: " + str(i + j) or "Invalid input"))
+print()
